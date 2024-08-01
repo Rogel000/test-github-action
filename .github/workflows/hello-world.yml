@@ -20,6 +20,7 @@ jobs:
   # Définition de la seconde action
 
   seconde-job:
+    needs: premier-job
     name: mon deuxième job
     runs-on: ubuntu-latest
     steps:
