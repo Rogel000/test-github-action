@@ -15,4 +15,3 @@ jobs:
         run: echo "Hello world!"
       - name: Dit au revoir
         run: echo "Goodbye world!"
-
